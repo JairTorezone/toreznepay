@@ -86,6 +86,7 @@ document.querySelector("form").addEventListener("submit", (event) => {
   event.preventDefault()
 })
 
+// card holder
 const cardHolder = document.querySelector("#card-holder")
 cardHolder.addEventListener("input", () => {
   const ccHolder = document.querySelector(".cc-holder .value")
@@ -93,3 +94,14 @@ cardHolder.addEventListener("input", () => {
   ccHolder.innerText =
     cardHolder.value.length === 0 ? "FULANDO DA SILVA" : cardHolder.value
 })
+
+// updateSecurityCode
+securityCodeMasked.on("accept", () => {
+  updateSecurityCode(securityCodeMasked.value)
+})
+
+function updateSecurityCode(code) {
+  const ccSecurity = document.querySelector(".cc-security .value")
+
+  ccSecurity.innerText = code.length === 0 ? "123" : code
+}
