@@ -32,6 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [iMask](https://imask.js.org)
 
 ## 💻 Projeto
+https://toreznepay.vercel.app/ <br>
 
 O Rocketpay é um componente que simula o formulário de preenchimento de cartão de crédito, onde é possível adicionar máscara aos inputs e atualizar elementos HTML via DOM.
 
@@ -45,4 +46,12 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Feito junto com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+
+---
+
+## Autor
+Jair Torezone Euzebio Ribeiro
+
+https://www.linkedin.com/in/jair-torezone/
+---
